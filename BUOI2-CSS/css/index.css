@@ -1,0 +1,172 @@
+    /* GLOBAL  */
+    .clear{
+        clear: both;
+    }
+    /* END GLOBAL */
+    /* HEADER */
+    .header img{
+        width: 200px;
+    }
+    /* END HEADER */
+    /* NAVIGATION BAR */
+    .navbar{
+        background-color: rgba(0, 0, 0, 0.918);
+        padding: 10px 0;
+        margin-top: 10px;
+    }
+    .navbar .navbar-nav{
+        list-style: none;
+        margin: 0;
+        padding-left: 10px;
+    }
+    .navbar .navbar-nav .nav-item{
+        display: inline;
+        margin-right: 20px;
+    }
+    .navbar .nav-item a{
+        color: white;
+        text-decoration: none;
+    }
+    /* END NAVIGATION BAR */
+    /* CAROUSEL */
+    .carousel{
+        background-image: url('../img/slider_1.jpg');
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 10px; 
+    }
+    /* END CAROUSEL */
+    /* INTRODUCTION */
+    .intro-content-left, .intro-content-right {
+        float: left;
+        width: 50%;
+    }
+    .intro-content-item-1, .intro-content-item-2{
+        float: left;
+        width: 50%;
+    }
+    .intro-content-item{
+        box-sizing: border-box;
+        padding: 10px;
+    }
+    .intro-content-item img{
+        width: 100%;
+        display: block;
+    }
+    /* END INTRODUCTION */
+    /* BEST SELLER */
+    .best-seller > h1{
+        text-align: center;
+        font-size: 50px;
+        font-weight: normal;
+        text-transform: uppercase;
+    }
+    .best-seller .best-seller-item{
+        float: left;
+        width: 25%;
+        /* border: 1px solid black; */
+        padding:0 10px;
+        box-sizing: border-box;
+    }
+    .best-seller .best-seller-item img{
+        width: 100%;
+    }
+    .best-seller .best-seller-item h1{
+        font-size: 25px;
+        font-weight: normal;
+        margin: 5px 0;
+    }
+    .best-seller .best-seller-item p{
+        font-size: 20px;
+        margin-top: 0;
+    }
+    .best-seller .best-seller-item button{
+        background-color: #d8524e;
+        color: aliceblue;
+        border: none;
+        padding: 10px;
+        border-radius: 5px; 
+        cursor: pointer;
+    }
+    .best-seller .best-seller-item button:hover{
+        background-color: transparent;
+        color: red;
+        border: 1px solid red;
+    }
+    /* END BEST SELLER */
+    /* BANNER */
+    .banner{
+        margin-top: 50px;
+        background-image: url(../img/nature.jpg);
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        /* position: relative; */
+    }
+    .banner .banner-content{
+        background-color: rgb(255,0,0,0.3);
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        text-align: center;
+        color: white;
+        padding-top: 50px;
+        box-sizing: border-box;
+        position: relative;
+        /* position: absolute; di chuyen theo position gan nhat
+        con k co position thi di chuyen theo body */
+        /* position: absolute; */
+        top: 10%;
+        left: 25%;
+    }
+    .banner .banner-content p:first-child{
+        font-size: 40px;
+    }
+    .banner .banner-content p:nth-child(2){
+        font-size: 75px;
+    }
+    .banner .banner-content p:last-child{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .banner .banner-content p{
+        margin: 0;
+    }
+    /* END BANNER */
+    /* SERVICE */
+    .service {
+        margin-top: 20px;
+    }
+    .service .service-content{
+        width: 60%;
+        margin: auto;
+    }
+    .service .service-content .service-item{
+        float: left;
+        width: 33.33%;
+        box-sizing: border-box;
+        text-align: center;
+        padding: 20px;
+    }
+    .service .service-content .service-item .material-icons{
+        font-size: 40px;
+    }
+    .service .service-content .service-item h3,
+    .service .service-content .service-item p{
+        margin: 0;
+    }
+    /* END SERVICE */
+    /* FOOTER */
+    .footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 30px 0;
+    }
+    .footer p{
+        font-size: 20px;
+    }
+    /* END FOOTER */

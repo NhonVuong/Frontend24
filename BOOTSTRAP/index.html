@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Layout Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/index.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <p class="text-white text-right mb-0">
+                <i class="fa fa-phone"></i>
+                <span class="m-3 border-right pr-3 font-weight-bold">0981 428 298</span
+          >
+          <i class="fa fa-search"></i>
+        </p>
+        <nav class="navbar navbar-expand-lg navbar-dark p-0">
+          <a class="navbar-brand" href="#">
+            <img src="./img/logo.svg" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active px-2">
+                            <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="#">WHAT'S ON</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="#">SHORTCODES</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="#">CONTACT</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="#" data-toggle="modal" data-target="#modalForm">SIGN IN</a
+                >
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="#">SING UP</a>
+                        </li>
+                    </ul>
+                </div>
+                </nav>
+        </div>
+    </header>
+    <section class="slider">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item item-1 active">
+                    <!-- <img src="./img/hero-1.jpg" class="d-block w-100" alt="..." /> -->
+                    <div class="overlay"></div>
+                    <div class="carousel-cap container">
+                        <p>ACTION, ADVENTURE, FANTASY</p>
+                        <h1 class="display-4">End of the World: Part I</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae amet perferendis vel deleniti officiis<br /> molestiae eius corporis dicta ducimus sapiente!
+                        </p>
+                        <button class="btn btn-play" data-toggle="modal" data-target="#exampleModal-1">
+                Play Trailer
+              </button>
+                    </div>
+                </div>
+                <div class="carousel-item item-2">
+                    <!-- <img src="./img/hero-2.jpg" class="d-block w-100" alt="..." /> -->
+                    <div class="overlay"></div>
+                    <div class="carousel-cap container">
+                        <p>ACTION, ADVENTURE, FANTASY</p>
+                        <h1 class="display-4">End of the World: Part II</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae amet perferendis vel deleniti officiis<br /> molestiae eius corporis dicta ducimus sapiente!
+                        </p>
+                        <button class="btn btn-play" data-toggle="modal" data-target="#exampleModal-2">
+                Play Trailer
+              </button>
+                    </div>
+                </div>
+                <div class="carousel-item item-3">
+                    <!-- <img src="./img/hero-3.jpg" class="d-block w-100" alt="..." /> -->
+                    <div class="overlay"></div>
+                    <div class="carousel-cap container">
+                        <p>ACTION, ADVENTURE, FANTASY</p>
+                        <h1 class="display-4">End of the World: Part III</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae amet perferendis vel deleniti officiis<br /> molestiae eius corporis dicta ducimus sapiente!
+                        </p>
+                        <button class="btn btn-play" data-toggle="modal" data-target="#exampleModal-3">
+                Play Trailer
+              </button>
+                    </div>
+                </div>
+            </div>
+            <ol class="carousel-indicators container">
+                <li data-target="#carouselExampleFade" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleFade" data-slide-to="1"></li>
+                <li data-target="#carouselExampleFade" data-slide-to="2"></li>
+            </ol>
+        </div>
+    </section>
+    <section class="movies mt-4">
+        <div class="container">
+            <h1>SHOWING MOVIE</h1>
+            <div class="row mt-4">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="movies__item">
+                        <div class="movies__item-img">
+                            <img src="./img/movie-1.jpg" alt="" />
+                            <div class="overlay"></div>
+                            <div class="movies__item-detail">
+                                <i class="fa fa-play"></i>
+                                <a href="">Read more</a>
+                                <span>Released: 7, March 2017</span>
+                            </div>
+                        </div>
+                        <div class="movies__item-info">
+                            <p>Hush</p>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="movies__item">
+                        <div class="movies__item-img">
+                            <img src="./img/movie-2.jpg" alt="" />
+                            <div class="overlay"></div>
+                            <div class="movies__item-detail">
+                                <i class="fa fa-play"></i>
+                                <a href="">Read more</a>
+                                <span>Released: 7, March 2017</span>
+                            </div>
+                        </div>
+                        <div class="movies__item-info">
+                            <p>Hush</p>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="movies__item">
+                        <div class="movies__item-img">
+                            <img src="./img/movie-3.jpg" alt="" />
+                            <div class="overlay"></div>
+                            <div class="movies__item-detail">
+                                <i class="fa fa-play"></i>
+                                <a href="">Read more</a>
+                                <span>Released: 7, March 2017</span>
+                            </div>
+                        </div>
+                        <div class="movies__item-info">
+                            <p>Hush</p>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="movies__item">
+                        <div class="movies__item-img">
+                            <img src="./img/movie-4.jpg" alt="" />
+                            <div class="overlay"></div>
+                            <div class="movies__item-detail">
+                                <i class="fa fa-play"></i>
+                                <a href="">Read more</a>
+                                <span>Released: 7, March 2017</span>
+                            </div>
+                        </div>
+                        <div class="movies__item-info">
+                            <p>Hush</p>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="showtimes py-5">
+        <div class="container">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="mon-tab" data-toggle="tab" href="#mon" role="tab">MON</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link "
+              id="tue-tab"
+              data-toggle="tab"
+              href="#tue"
+              role="tab"
+              >TUE</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link "
+              id="wed-tab"
+              data-toggle="tab"
+              href="#wed"
+              role="tab"
+              >WED</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link "
+              id="thu-tab"
+              data-toggle="tab"
+              href="#thu"
+              role="tab"
+              >THU</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link "
+              id="fri-tab"
+              data-toggle="tab"
+              href="#fri"
+              role="tab"
+              >FRI</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link "
+              id="sat-tab"
+              data-toggle="tab"
+              href="#sat"
+              role="tab"
+              >SAT</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link "
+              id="sun-tab"
+              data-toggle="tab"
+              href="#sun"
+              role="tab"
+              >SUN</a
+            >
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div
+            class="tab-pane fade show active"
+            id="mon"
+            role="tabpanel"
+            aria-labelledby="home-tab"
+          >
+            <div class="row pt-5">
+              <div class="col-2">
+                <img src="./img/movie-11.jpg" alt="" class="img-fluid" />
+              </div>
+              <div class="col-10">
+                <span>ACTION, ADVENTURE, FANTASY</span>
+                <h1>It's over</h1>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Laborum ad sequi aliquid numquam iste blanditiis corrupti
+                  ipsam inventore voluptatem modi.
+                </p>
+                <a href="">FULL-SYNOPSIS <i class="fa fa-angle-right"></i></a>
+                    <div class="showtimes__movies d-flex justify-content-between">
+                        <div>
+                            <i class="far fa-clock"></i>
+                            <span>VIEWING TIMES</span>
+                            <button class="btn btn-secondary">14:25</button>
+                            <button class="btn btn-secondary">16:25</button>
+                            <button class="btn btn-secondary">17:25</button>
+                            <button class="btn btn-secondary">19:25</button>
+                        </div>
+                        <div>
+                            <p class="showtimes__duration">
+                                105 MINS
+                                <span class="bg-dark text-white rounded-circle d-inline-block text-center">15</span
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row pt-5">
+              <div class="col-2">
+                <img src="./img/movie-12.jpg" alt="" class="img-fluid" />
+              </div>
+              <div class="col-10">
+                <span>ACTION, ADVENTURE, FANTASY</span>
+                                <h1>It's over</h1>
+                                <p>
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum ad sequi aliquid numquam iste blanditiis corrupti ipsam inventore voluptatem modi.
+                                </p>
+                                <a href="">FULL-SYNOPSIS <i class="fa fa-angle-right"></i></a>
+                                <div class="showtimes__movies d-flex justify-content-between">
+                                    <div>
+                                        <i class="far fa-clock"></i>
+                                        <span>VIEWING TIMES</span>
+                                        <button class="btn btn-secondary">14:25</button>
+                                        <button class="btn btn-secondary">16:25</button>
+                                        <button class="btn btn-secondary">17:25</button>
+                                        <button class="btn btn-secondary">19:25</button>
+                                    </div>
+                                    <div>
+                                        <p class="showtimes__duration">
+                                            105 MINS
+                                            <span class="bg-dark text-white rounded-circle d-inline-block text-center">15</span
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row pt-5">
+              <div class="col-2">
+                <img src="./img/movie-13.jpg" alt="" class="img-fluid" />
+              </div>
+              <div class="col-10">
+                <span>ACTION, ADVENTURE, FANTASY</span>
+                                            <h1>It's over</h1>
+                                            <p>
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum ad sequi aliquid numquam iste blanditiis corrupti ipsam inventore voluptatem modi.
+                                            </p>
+                                            <a href="">FULL-SYNOPSIS <i class="fa fa-angle-right"></i></a>
+                                            <div class="showtimes__movies d-flex justify-content-between">
+                                                <div>
+                                                    <i class="far fa-clock"></i>
+                                                    <span>VIEWING TIMES</span>
+                                                    <button class="btn btn-secondary">14:25</button>
+                                                    <button class="btn btn-secondary">16:25</button>
+                                                    <button class="btn btn-secondary">17:25</button>
+                                                    <button class="btn btn-secondary">19:25</button>
+                                                </div>
+                                                <div>
+                                                    <p class="showtimes__duration">
+                                                        105 MINS
+                                                        <span class="bg-dark text-white rounded-circle d-inline-block text-center">15</span
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade show"
+            id="tue"
+            role="tabpanel"
+            aria-labelledby="home-tab"
+          >
+            TUE
+          </div>
+          <div
+            class="tab-pane fade show"
+            id="wed"
+            role="tabpanel"
+            aria-labelledby="home-tab"
+          >
+            WED
+          </div>
+          <div
+            class="tab-pane fade show"
+            id="thu"
+            role="tabpanel"
+            aria-labelledby="home-tab"
+          >
+            THU
+          </div>
+          <div
+            class="tab-pane fade show"
+            id="fri"
+            role="tabpanel"
+            aria-labelledby="home-tab"
+          >
+            FRI
+          </div>
+          <div
+            class="tab-pane fade show"
+            id="sat"
+            role="tabpanel"
+            aria-labelledby="home-tab"
+          >
+            SAT
+          </div>
+          <div
+            class="tab-pane fade show"
+            id="sun"
+            role="tabpanel"
+            aria-labelledby="home-tab"
+          >
+            SUN
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="coming">
+      <div class="container">
+        <h2 class="pt-5">COMING SOON</h2>
+        <div class="row">
+          <div class="col-6 mt-5">
+            <div class="coming__content">
+              <h3>COMEDY, CIRCLE</h3>
+              <h1>The Hangover Part III</h1>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-calendar-alt"></i>
+              <span>30 September, 2017</span>
+                                                        <p class="mt-4">
+                                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, hic explicabo magni suscipit laudantium impedit fugiat, vitae animi, fuga ad quos ea inventore quia dignissimos ipsa. Vitae obcaecati modi non?
+                                                        </p>
+                                                        <a href="">MORE INFO</a>
+                                                        <i class="fa fa-angle-right"></i>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="coming__img">
+                                                    <img src="./img/slide-3-video.png" alt="" />
+                                                    <div class="coming__film">
+                                                        <i class="fa fa-play"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+    </section>
+
+    <div class="modal fade" id="exampleModal-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <iframe width="100%" height="541" src="https://www.youtube.com/embed/EECTAvdSaVk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <iframe width="100%" height="541" src="https://www.youtube.com/embed/aoz3E2WPfiY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal-3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <iframe width="100%" height="541" src="https://www.youtube.com/embed/WWxeMiPhDPg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL -->
+    <div class="modal fade" id="modalForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="mail">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com" />
+                        </div>
+                        <div class="form-group">
+                            <label for="pass">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="password" />
+                        </div>
+                        <button class="btn btn-success">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

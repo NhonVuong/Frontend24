@@ -1,0 +1,437 @@
+body{
+    margin: 0;
+}
+.clear{
+    clear: both;
+}
+/* HEADER */
+.header{
+    width: 100%;
+    background-color: #b06010;
+    padding: 10px 0;
+}
+.header-content{
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+}
+.header-content i, .header-content span{
+    margin-right: 10px;
+}
+/* END HEADER */
+/* NAVIGATION */
+.myNavbar-content{
+    width: 80%;
+    margin: auto;
+}
+.myNavbar-brand, .myNavbar-menu, .social{
+    float: left;
+
+}
+.myNavbar-brand{
+    padding-top: 0.5rem;
+    width: 25%;
+}
+.myNavbar-menu{
+    padding-top: 0.7rem;
+    width: 55%;
+}
+.myNavbar-menu ul{
+    list-style: none;
+}
+.myNavbar-menu ul li{
+    display: inline;
+    margin-right: 1.6rem;
+}
+.myNavbar-menu ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.myNavbar-menu ul li.active a{
+    color: #b06058;
+}
+.social{
+    padding-top: 19px;
+    width: 20%;
+}
+.social-item{
+    width: 1.8rem;
+    height: 1.8rem;
+    color: white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    float: left;
+    margin-right: 0.5rem;
+}
+.social-item i{
+    padding: 8px 0 0 8px;
+}
+.fb-social{
+    background-color: #3b5998;
+}
+.tw-social{
+    background-color: #1da1f2;
+}
+.gg-social{
+    background-color: rgb(255, 41, 41);
+}
+/* END NAVIGATION */
+/* SLIDER */
+.slider{
+    width: 100%;
+    height: 650px;
+     background-image: url('../img/banner-2.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
+}
+.slider .slider-caption{
+    padding-top: 15%;
+    text-align: center;
+    color: white;
+}
+.slider .slider-caption h1{
+    font-size: 45px;
+    font-weight: 200;
+}
+.slider .slider-social{
+    text-align: center;
+}
+.slider .slider-social i{
+    color: #b06010;
+    margin-right: 2rem;
+}
+/* END SLIDEER */
+/* ABOUT US */
+.about-us{
+    width: 100%;
+    margin-top: 5rem;
+}
+.about-us .about-us-content{
+    width: 80%;
+    margin: auto;
+}
+.about-us .about-us-content .about-us-caption{
+    text-align: center;
+}
+.about-us .about-us-content .about-us-caption h1{
+    font-size: 2.8rem;
+    margin-bottom: 0.8rem;
+}
+.about-us .about-us-content .about-us-caption span{
+    font-size: 1.2rem;
+    letter-spacing: 0.4rem;
+    color: #c56719;
+}
+.about-us .about-us-content .about-us-caption p,
+.about-us-list-item p{
+    font-size: 1.2rem;
+    padding: 0 1.5rem;
+    line-height: 1.8rem;
+}
+.about-us-list{
+    width: 100%;
+    margin-top: 5rem;
+}
+.about-us-list-item{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.about-us-list-item i{
+    font-size: 2rem;
+    color: #204b87;
+}
+.about-us-list-item i.active{
+    font-size: 2rem;
+    color: #c56719;
+}
+.about-us-list-item h2{
+    font-size: 1.2rem;
+    color: #c56719;
+}
+/* ABOUT US */
+/* HOME */
+.home{
+    width: 100%;
+    background-color: #015bb1;
+    padding-bottom: 2rem;
+}
+.home .home-img{
+    float: left;
+    width: 60%;
+}
+.home .home-intro{
+    float: left;
+    width: 40%;
+}
+.home .home-img img{
+    max-width: 100%;
+    height: 95%;
+}
+.home .home-intro h1{
+    font-weight: bold;
+    color: white;
+    font-size: 2.8rem;
+    padding: 1rem 3rem 0 3rem;
+}
+.home-intro p{
+    font-size: 1.2rem;
+    padding: 0 3rem;
+    color: white;
+}
+p.home-subtitle{
+    color: black;
+    line-height: 2rem;
+}
+.home-intro p i{
+    margin-right: 0.8rem;
+    line-height: 2rem;
+}
+/* END HOME */
+/* OUR TEAM */
+.team{
+    width: 100%;
+    padding-top: 3rem;
+}
+.team .team-content{
+    width: 80%;
+    margin: auto;
+}
+.team .team-content{
+    text-align: center;
+}
+.team .team-content .team-title h1{
+    font-size: 2.8rem;
+    margin-bottom: 0.8rem;
+}
+.team .team-content .team-title span{
+    font-size: 1.2rem;
+    letter-spacing: 0.4rem;
+    color: #c56719;
+}
+.team .team-content .team-member{
+    margin-top: 5rem;
+    width: 100%;
+}
+.team .team-content .team-member .team-member-item{
+    float: left;
+    width: 33.3%;
+    box-sizing: border-box;
+}
+.team .team-content .team-member .team-member-item img{
+    max-width: 70%;
+    border-radius: 50%;
+}
+.team .team-content .team-member .team-member-item p{
+    font-size: 1.5rem;
+    color: #c56719;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+.team .team-content .team-member .team-member-item span{
+    font-size: 1.3rem;
+    font-weight: 200px;
+    color: gray;
+}
+.team .team-content .team-member .team-member-item .team-social{
+    margin-top: 1.5rem;
+}
+.team .team-content .team-member .team-member-item .team-social i{
+    color: #204b87;
+    font-size: 1.3rem;
+    margin-right: 1rem;
+}
+.team-line{
+    margin: auto;
+    width: 70%;
+    height: 2px;
+    background-color: black;
+    margin-top: 1rem;
+}
+/* END OUR TEAM */
+/* CUSTOMER */
+.customer{
+    width: 100%;
+    height: 40rem;
+    background-image: url('../img/banner-2.jpg');
+    background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
+     margin-top: 5rem;
+}
+.customer-content{
+    width: 80%;
+    margin: 0 auto;
+}
+.customer-content .customer-title{
+    padding-top: 2.8rem;
+    text-align: center;
+}
+.customer-content .customer-title h1{
+    font-size: 2.8rem;
+    margin-bottom: 0.8rem;
+    color: white;
+}
+.customer-content .customer-title span{
+    font-size: 1.2rem;
+    letter-spacing: 0.4rem;
+    color: #c56719;
+}
+.customer-member{
+    width: 100%;
+    margin-top: 5rem;
+}
+.customer-member-item{
+    float: left;
+    width: 30%;
+}
+.customer-member-item:nth-child(2){
+    margin: 0 5%;
+}
+.customer-member-item .customer-comment{
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 0.5rem 1.7rem;
+}
+.customer-member-item .customer-info{
+    padding-top: 1rem;
+    /* padding: 0 5rem; */
+    margin-top: 1rem;
+}
+.customer-member-item .customer-info img{
+    max-width: 30%;
+    float: left;
+    margin-right: 0.6rem;
+    margin-left: 17%;
+}
+.customer-comment p,.customer-info p, .customer-info span{
+    color: white;
+}
+.customer-info p{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+/* END CUSTOMER */
+/* OVERVIEW */
+.overview{
+    width: 100%;
+    padding-top: 1rem;
+}
+.overview-content{
+    width: 80%;
+    margin: 0 auto;
+}
+.overview-title{
+    text-align: center;
+}
+.overview-title h1{
+    font-size: 2.8rem;
+    margin-bottom: 0.8rem;
+}
+.overview-title span{
+    font-size: 1.2rem;
+    letter-spacing: 0.4rem;
+    color: #c56719;
+}
+.overview-statistic{
+    background-color: #222222;
+    height: 12rem;
+    margin-top: 3rem;
+}
+.statistic-user{
+    float: left;
+    width: 33.3%;
+    font-size: 2rem;
+    padding: 4rem 5rem;
+    box-sizing: border-box;
+}
+.statistic-user i{
+    color: #b06111;
+    float: left;
+    margin-top: 0.5rem;
+}
+.statistic-user .statistic-user-number{
+    float: left;
+    box-sizing: border-box;
+    font-weight: bold;
+    color: white;
+    margin-left: 2rem;
+}
+.statistic-user .statistic-user-number p{
+    margin: 0;
+}
+.statistic-user .statistic-user-number span{
+    font-size: 1.3rem;
+}
+/* END OVERVIEW */
+/* FOOTER */
+.footer{
+    width: 100%;
+    background-color: black;
+    height: 36rem;
+    margin-top: 4rem;
+}
+.footer-content{
+    width: 80%;
+    margin: auto;
+}
+.footer-content .footer-content-1{
+    padding-top: 3rem;
+}
+.footer-item{
+    float: left;
+    width: 33.3%;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    padding-right: 3rem;
+}
+.footer-item h2{
+    color: white;
+}
+.footer-item p{
+    color: #989898;
+}
+.footer-item i{
+    font-size: 1rem;
+}
+.fa-long-arrow-alt-right{
+    color: #16355e;
+}
+.footer-content .footer-content-2 h1{
+    color: white;
+}
+.footer-content-2 form input, .footer-content-2 form button{
+    padding: 0.8rem 0.5rem;
+    border: none;
+}
+.footer-content .footer-content-2 form input{
+    width: 60%;
+    margin-right: 1rem;
+    background-color: #1b1b1b;
+    color: white;
+}
+::-webkit-input-placeholder{
+    color: white;
+}
+.footer-content .footer-content-2 form button{
+    width: 25%;
+    text-align: center;
+    background-color: #204b86;
+    color: white;
+}
+.end-footer{
+    background-color: #121212;
+    color: white;
+    height: 3.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 4rem;
+}
+.end{
+    padding-top: 1.2rem;
+}
+/* END FOOTER */

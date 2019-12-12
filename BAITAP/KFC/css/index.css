@@ -1,0 +1,21 @@
+a{
+    font-size: 20px;
+}
+.intro{
+    background-color: #a52a2a;
+}
+.intro-content{
+    color: white;
+    font-size: 30px;
+}
+i{
+    color: black;
+    font-weight: bold;
+}
+li{
+    color: white;
+    font-size: 25px;
+}
+.footer{
+    text-align: center;
+}

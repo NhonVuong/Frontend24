@@ -1,0 +1,30 @@
+h1{
+    color: white;
+    background-color: red;
+    text-align: center;
+}
+div{
+    text-align: center;
+}
+img{
+    width: 600px;
+}
+p{
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+    text-align: right;
+}
+.violet{
+    background-color: violet;
+}
+.green{
+    background-color: green;
+    text-align: right;
+}
